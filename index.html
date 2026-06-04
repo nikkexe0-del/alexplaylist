@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stream Player</title>
+<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.7.11/dist/shaka-player.compiled.js"></script>
+<style>
+  :root {
+    --bg: #0d0d0f;
+    --bg2: #16161a;
+    --bg3: #1e1e24;
+    --bg4: #26262e;
+    --accent: #e8534a;
+    --accent2: #ff6b5b;
+    --text: #f0eff4;
+    --text2: #9b99a8;
+    --text3: #6b6878;
+    --border: rgba(255,255,255,0.07);
+    --radius: 10px;
+    --sidebar: 300px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+  
+  #header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 0 18px; height: 52px;
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    flex-shrink: 0; z-index: 10;
+  }
+  #header .logo { font-size: 18px; font-weight: 700; letter-spacing: -0.5px; color: var(--accent2); }
+  #header .logo span { color: var(--text2); font-weight: 400; }
+  #search {
+    flex: 1; max-width: 320px; margin-left: auto;
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 12px;
+    color: var(--text); font-size: 13px; outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  #search::placeholder { color: var(--text3); }
+  #status-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--text3); margin-left: 8px; flex-shrink: 0;
+  }
+  #status-dot.live { background: #4caf50; box-shadow: 0 0 6px #4caf5088; }
+  #status-dot.loading { background: #ff9800; animation: pulse 1s infinite; }
+  #status-dot.error { background: var(--accent); }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+  #body { display: flex; flex: 1; overflow: hidden; }
+
+  #sidebar {
+    width: var(--sidebar); flex-shrink: 0;
+    background: var(--bg2); border-right: 1px solid var(--border);
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  #group-tabs {
+    display: flex; overflow-x: auto; gap: 4px;
+    padding: 10px 12px 0; flex-shrink: 0;
+    scrollbar-width: none;
+  }
+  #group-tabs::-webkit-scrollbar { display: none; }
+  .group-tab {
+    padding: 5px 12px; border-radius: 20px;
+    font-size: 12px; font-weight: 500; white-space: nowrap;
+    cursor: pointer; border: 1px solid var(--border);
+    color: var(--text2); background: transparent; transition: all 0.15s;
+  }
+  .group-tab:hover { border-color: var(--accent); color: var(--text); }
+  .group-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  #channel-list {
+    flex: 1; overflow-y: auto; padding: 8px;
+    scrollbar-width: thin; scrollbar-color: var(--bg4) transparent;
+  }
+  #channel-list::-webkit-scrollbar { width: 4px; }
+  #channel-list::-webkit-scrollbar-thumb { background: var(--bg4); border-radius: 2px; }
+
+  .channel-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 10px; border-radius: 8px; cursor: pointer;
+    transition: background 0.1s; border: 1px solid transparent;
+  }
+  .channel-item:hover { background: var(--bg3); }
+  .channel-item.active { background: var(--bg4); border-color: var(--accent); }
+  .channel-item .logo {
+    width: 36px; height: 36px; border-radius: 6px;
+    object-fit: contain; background: var(--bg4); flex-shrink: 0;
+  }
+  .channel-item .logo-fallback {
+    width: 36px; height: 36px; border-radius: 6px;
+    background: var(--bg4); display: flex; align-items: center;
+    justify-content: center; font-size: 11px; font-weight: 600;
+    color: var(--text2); flex-shrink: 0; text-transform: uppercase;
+  }
+  .channel-item .info { flex: 1; min-width: 0; }
+  .channel-item .name {
+    font-size: 13px; font-weight: 500; color: var(--text);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .channel-item .group { font-size: 11px; color: var(--text3); margin-top: 1px; }
+  .channel-item .drm-badge {
+    font-size: 10px; padding: 2px 6px; border-radius: 4px;
+    background: rgba(232,83,74,0.15); color: var(--accent2);
+    font-weight: 600; flex-shrink: 0;
+  }
+
+  #player-area {
+    flex: 1; display: flex; flex-direction: column; overflow: hidden;
+    background: var(--bg);
+  }
+  #video-wrapper {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    background: #000; position: relative; min-height: 0;
+  }
+  #video {
+    width: 100%; height: 100%; object-fit: contain; display: block;
+  }
+  #empty-state {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; gap: 12px; color: var(--text3);
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  }
+  #empty-state svg { opacity: 0.3; }
+  #empty-state p { font-size: 14px; }
+  #overlay-status {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    pointer-events: none;
+  }
+  #overlay-msg {
+    background: rgba(0,0,0,0.75); padding: 12px 20px;
+    border-radius: 8px; font-size: 14px; color: var(--text);
+    max-width: 340px; text-align: center;
+    backdrop-filter: blur(4px);
+  }
+
+  #info-bar {
+    padding: 10px 16px; background: var(--bg2);
+    border-top: 1px solid var(--border);
+    display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+  }
+  #channel-title { font-size: 14px; font-weight: 600; flex: 1; }
+  #channel-meta { font-size: 12px; color: var(--text3); }
+  #controls { display: flex; gap: 8px; }
+  .ctrl-btn {
+    padding: 5px 12px; border-radius: 6px; font-size: 12px;
+    border: 1px solid var(--border); background: var(--bg3);
+    color: var(--text2); cursor: pointer; transition: all 0.15s;
+  }
+  .ctrl-btn:hover { border-color: var(--accent); color: var(--text); }
+  .ctrl-btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  #load-bar {
+    padding: 12px 16px; background: var(--bg2);
+    border-top: 1px solid var(--border);
+    display: none; align-items: center; gap: 10px; flex-shrink: 0;
+  }
+  #load-bar.show { display: flex; }
+  #load-bar label { font-size: 12px; color: var(--text3); white-space: nowrap; }
+  #m3u-input {
+    flex: 1; background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 6px; padding: 6px 10px;
+    color: var(--text); font-size: 12px; outline: none;
+  }
+  #m3u-input:focus { border-color: var(--accent); }
+  #load-btn {
+    padding: 6px 14px; background: var(--accent);
+    border: none; border-radius: 6px; color: #fff;
+    font-size: 12px; font-weight: 600; cursor: pointer;
+  }
+  #load-btn:hover { background: var(--accent2); }
+
+  .no-results { padding: 24px; text-align: center; color: var(--text3); font-size: 13px; }
+  
+  #loading-overlay {
+    position: absolute; inset: 0; background: rgba(0,0,0,0.6);
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: 10px;
+  }
+  .spinner {
+    width: 32px; height: 32px; border: 3px solid var(--border);
+    border-top-color: var(--accent); border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #loading-overlay p { font-size: 13px; color: var(--text2); }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div class="logo">ExoStream <span>Web</span></div>
+  <input id="search" type="text" placeholder="Search channels…" />
+  <div id="status-dot" title="Status"></div>
+</div>
+
+<div id="body">
+  <div id="sidebar">
+    <div id="group-tabs"></div>
+    <div id="channel-list"></div>
+  </div>
+  <div id="player-area">
+    <div id="video-wrapper">
+      <video id="video" autoplay playsinline></video>
+      <div id="empty-state">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <p>Select a channel to start streaming</p>
+      </div>
+      <div id="overlay-status" style="display:none">
+        <div id="overlay-msg"></div>
+      </div>
+    </div>
+    <div id="info-bar">
+      <div id="channel-title" style="color:var(--text3)">No channel selected</div>
+      <div id="channel-meta"></div>
+      <div id="controls">
+        <button class="ctrl-btn" onclick="toggleM3UBar()">📂 Load M3U</button>
+        <button class="ctrl-btn" onclick="reloadChannel()" id="reload-btn" style="display:none">↺ Retry</button>
+      </div>
+    </div>
+    <div id="load-bar">
+      <label>M3U URL:</label>
+      <input id="m3u-input" type="text" placeholder="https://raw.githubusercontent.com/…/playlist.m3u" />
+      <button id="load-btn" onclick="loadM3UFromInput()">Load</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const DEFAULT_M3U = 'https://raw.githubusercontent.com/alex4528y/m3u/refs/heads/main/jtv.m3u';
+const DEFAULT_LICENSE = 'https://alex4528.site/jplus/license';
+
+let channels = [];
+let filteredChannels = [];
+let activeGroup = 'All';
+let currentChannel = null;
+let shakaPlayer = null;
+
+const videoEl = document.getElementById('video');
+const channelList = document.getElementById('channel-list');
+const groupTabs = document.getElementById('group-tabs');
+const statusDot = document.getElementById('status-dot');
+const emptyState = document.getElementById('empty-state');
+const overlayStatus = document.getElementById('overlay-status');
+const overlayMsg = document.getElementById('overlay-msg');
+const channelTitle = document.getElementById('channel-title');
+const channelMeta = document.getElementById('channel-meta');
+const reloadBtn = document.getElementById('reload-btn');
+const searchInput = document.getElementById('search');
+
+function setStatus(state, msg) {
+  statusDot.className = state;
+  if (msg) {
+    overlayStatus.style.display = 'flex';
+    overlayMsg.textContent = msg;
+  } else {
+    overlayStatus.style.display = 'none';
+  }
+}
+
+function showLoading(msg) {
+  let lo = document.getElementById('loading-overlay');
+  if (!lo) {
+    lo = document.createElement('div');
+    lo.id = 'loading-overlay';
+    lo.innerHTML = `<div class="spinner"></div><p></p>`;
+    document.getElementById('video-wrapper').appendChild(lo);
+  }
+  lo.querySelector('p').textContent = msg || 'Connecting…';
+  lo.style.display = 'flex';
+}
+function hideLoading() {
+  const lo = document.getElementById('loading-overlay');
+  if (lo) lo.style.display = 'none';
+}
+
+async function initShaka() {
+  if (!shaka.Player.isBrowserSupported()) {
+    alert('Your browser does not support Shaka Player. Try Chrome.');
+    return false;
+  }
+  shaka.polyfill.installAll();
+  if (shakaPlayer) {
+    await shakaPlayer.destroy();
+  }
+  shakaPlayer = new shaka.Player(videoEl);
+  shakaPlayer.addEventListener('error', onShakaError);
+  return true;
+}
+
+function onShakaError(e) {
+  console.error('Shaka error', e.detail);
+  const code = e.detail?.code;
+  let msg = 'Playback error';
+  if (code === 6007) msg = 'DRM license error — check license URL';
+  else if (code === 1001) msg = 'Network error — stream unavailable';
+  else if (code === 3016) msg = 'CORS error — stream blocked by browser';
+  else msg = `Error ${code}: ${e.detail?.message || 'Unknown'}`;
+  setStatus('error', msg);
+  hideLoading();
+  reloadBtn.style.display = '';
+}
+
+async function playChannel(ch) {
+  currentChannel = ch;
+  emptyState.style.display = 'none';
+  reloadBtn.style.display = 'none';
+  setStatus('loading');
+  showLoading(`Connecting to ${ch.name}…`);
+  channelTitle.textContent = ch.name;
+  channelMeta.textContent = ch.group;
+
+  document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('active'));
+  document.querySelector(`.channel-item[data-url="${CSS.escape(ch.url)}"]`)?.classList.add('active');
+
+  try {
+    const ok = await initShaka();
+    if (!ok) return;
+
+    const config = {
+      streaming: {
+        bufferingGoal: 30,
+        rebufferingGoal: 5,
+        bufferBehind: 30,
+        retryParameters: { maxAttempts: 3, baseDelay: 1000, backoffFactor: 2 }
+      }
+    };
+
+    if (ch.licenseUrl) {
+      config.drm = {
+        servers: {
+          'org.w3.clearkey': ch.licenseUrl
+        },
+        advanced: {
+          'org.w3.clearkey': { videoRobustness: '', audioRobustness: '' }
+        }
+      };
+    }
+
+    shakaPlayer.configure(config);
+
+    await shakaPlayer.load(ch.url);
+    videoEl.play();
+    setStatus('live');
+    hideLoading();
+  } catch (err) {
+    console.error('Load error:', err);
+    const msg = err.code === 1001 ? 'Stream unavailable (network error)' :
+                err.code === 6007 ? 'DRM license server error' :
+                `Failed: ${err.message || err}`;
+    setStatus('error', msg);
+    hideLoading();
+    reloadBtn.style.display = '';
+  }
+}
+
+function reloadChannel() {
+  if (currentChannel) playChannel(currentChannel);
+}
+
+function parseM3U(text) {
+  const lines = text.split('\n').map(l => l.trim());
+  const result = [];
+  let current = null;
+  let pendingLicense = null;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    if (line.startsWith('#EXTINF:')) {
+      current = { name: '', group: 'Ungrouped', logo: '', url: '', licenseUrl: null };
+      const nameMatch = line.match(/,(.+)$/);
+      if (nameMatch) current.name = nameMatch[1].trim();
+      const groupMatch = line.match(/group-title="([^"]+)"/);
+      if (groupMatch) current.group = groupMatch[1];
+      const logoMatch = line.match(/tvg-logo="([^"]+)"/);
+      if (logoMatch) current.logo = logoMatch[1];
+      pendingLicense = null;
+    } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=')) {
+      pendingLicense = line.split('=').slice(1).join('=').trim();
+    } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_type=')) {
+      // already handling clearkey
+    } else if (line.startsWith('#EXTVLCOPT:http-referrer=')) {
+      if (current) current.referer = line.split('=').slice(1).join('=').trim();
+    } else if (line && !line.startsWith('#') && current) {
+      current.url = line;
+      if (pendingLicense) current.licenseUrl = pendingLicense;
+      else current.licenseUrl = DEFAULT_LICENSE;
+      result.push(current);
+      current = null;
+      pendingLicense = null;
+    }
+  }
+  return result;
+}
+
+function getGroups() {
+  const groups = ['All', ...new Set(channels.map(c => c.group))];
+  return groups;
+}
+
+function renderGroupTabs() {
+  const groups = getGroups();
+  groupTabs.innerHTML = groups.map(g =>
+    `<div class="group-tab ${g === activeGroup ? 'active' : ''}" onclick="selectGroup('${g.replace(/'/g,"\\'")}')">
+      ${g}
+    </div>`
+  ).join('');
+}
+
+function selectGroup(g) {
+  activeGroup = g;
+  renderGroupTabs();
+  applyFilters();
+}
+
+function applyFilters() {
+  const q = searchInput.value.toLowerCase();
+  filteredChannels = channels.filter(c => {
+    const matchGroup = activeGroup === 'All' || c.group === activeGroup;
+    const matchSearch = !q || c.name.toLowerCase().includes(q) || c.group.toLowerCase().includes(q);
+    return matchGroup && matchSearch;
+  });
+  renderChannels();
+}
+
+function renderChannels() {
+  if (filteredChannels.length === 0) {
+    channelList.innerHTML = '<div class="no-results">No channels found</div>';
+    return;
+  }
+  channelList.innerHTML = filteredChannels.map(ch => {
+    const isActive = currentChannel && currentChannel.url === ch.url;
+    const safeUrl = ch.url.replace(/"/g, '&quot;');
+    const initials = ch.name.split(' ').slice(0,2).map(w => w[0]).join('').toUpperCase();
+    return `<div class="channel-item ${isActive ? 'active' : ''}" data-url="${safeUrl}" onclick="playChannel(channels.find(c=>c.url==='${safeUrl.replace(/'/g,"\\'")}'))">
+      ${ch.logo
+        ? `<img class="logo" src="${ch.logo}" onerror="this.style.display='none';this.nextSibling.style.display='flex'" loading="lazy" /><div class="logo-fallback" style="display:none">${initials}</div>`
+        : `<div class="logo-fallback">${initials}</div>`
+      }
+      <div class="info">
+        <div class="name">${ch.name}</div>
+        <div class="group">${ch.group}</div>
+      </div>
+      ${ch.licenseUrl ? '<span class="drm-badge">CK</span>' : ''}
+    </div>`;
+  }).join('');
+}
+
+async function loadM3U(url) {
+  setStatus('loading', 'Fetching playlist…');
+  channelList.innerHTML = '<div class="no-results">Loading…</div>';
+
+  const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+  let text;
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('Direct fetch failed');
+    text = await resp.text();
+  } catch {
+    try {
+      const resp = await fetch(proxyUrl);
+      if (!resp.ok) throw new Error('Proxy fetch failed');
+      text = await resp.text();
+    } catch (err) {
+      setStatus('error', 'Failed to load playlist. Check URL or CORS.');
+      channelList.innerHTML = '<div class="no-results">Failed to load M3U</div>';
+      return;
+    }
+  }
+
+  channels = parseM3U(text);
+  setStatus('', null);
+  activeGroup = 'All';
+  renderGroupTabs();
+  applyFilters();
+  console.log(`Loaded ${channels.length} channels`);
+}
+
+function loadM3UFromInput() {
+  const url = document.getElementById('m3u-input').value.trim();
+  if (!url) return;
+  toggleM3UBar();
+  loadM3U(url);
+}
+
+function toggleM3UBar() {
+  const bar = document.getElementById('load-bar');
+  const isShow = bar.classList.toggle('show');
+  if (isShow) {
+    const inp = document.getElementById('m3u-input');
+    inp.value = DEFAULT_M3U;
+    inp.focus();
+  }
+}
+
+searchInput.addEventListener('input', applyFilters);
+
+document.getElementById('m3u-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') loadM3UFromInput();
+});
+
+loadM3U(DEFAULT_M3U);
+</script>
+</body>
+</html>
