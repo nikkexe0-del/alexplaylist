@@ -1,0 +1,16 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1371/1779132691371-b" group-title="ENGLISH",CSK VS SRH MATCH 63 REPLAY (ENGLISH @rtxcric)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+https://vod01.akt.hotstar-cdn.net/videos/cricket/inallow-ipl-2026-1540067669/1540067670/ed319b9a7a82435a986cea74f4c4aec5/index_7.m3u8
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1371/1779132691371-b" group-title="HINDI",CSK VS SRH MATCH 63 REPLAY (HINDI @rtxcric)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+https://vod01.akt.hotstar-cdn.net/videos/cricket/inallow-ipl-2026-1540067669/1540067670/f66dabc35b0044f3888864531b85cd65/index_7.m3u8
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4783/1779050804783-b" group-title="ENGLISH",DC VS RR MATCH 62 REPLAY (ENGLISH @rtxcric)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+https://vod01.akt.hotstar-cdn.net/videos/cricket/inallow-ipl-2026-1540067666/1540067667/dcf20ed504a74a6483d45624ff888ce6/index_7.m3u8
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7054/1780083847054-b" group-title="ENGLISH",QUALIFIER 2 GT VS RR REPLAY (ENGLISH @rtxcric)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+https://vod01.akt.hotstar-cdn.net/videos/cricket/inallow-ipl-2026-1540068645/1540068646/e3e4744789d24121a3bee6ea2ce3ff9a/index_7.m3u8
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7054/1780083847054-b" group-title="HINDI",QUALIFIER 2 GT VS RR REPLAY (HINDI @rtxcric)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+https://vod01.akt.hotstar-cdn.net/videos/cricket/inallow-ipl-2026-1540068645/1540068646/2e20a1031eac4c20a87f25e98ad97608/index_7.m3u8
