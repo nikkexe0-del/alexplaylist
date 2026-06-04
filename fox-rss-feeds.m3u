@@ -1,0 +1,150 @@
+type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/latest.xml
+    description: Fox News — Latest Headlines (all sections) RSS / Atom feed served from the moxie / google-publisher CDN pattern shared across Fox brands.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/us.xml
+    description: Fox News — U.S. headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/world.xml
+    description: Fox News — World headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/politics.xml
+    description: Fox News — Politics headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/opinion.xml
+    description: Fox News — Opinion headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/science.xml
+    description: Fox News — Science headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/health.xml
+    description: Fox News — Health headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/tech.xml
+    description: Fox News — Tech headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/travel.xml
+    description: Fox News — Travel headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/lifestyle.xml
+    description: Fox News — Lifestyle headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/entertainment.xml
+    description: Fox News — Entertainment headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/media.xml
+    description: Fox News — Media headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/sports.xml
+    description: Fox News — Sports headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/videos.xml
+    description: Fox News — Videos RSS feed.
+  - type: RSSIndex
+    url: https://www.foxnews.com/story/foxnews-com-rss-feeds
+    description: Fox News public-facing index of all available RSS feeds.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/latest.xml
+    description: Fox Business — Latest Headlines RSS feed (same moxie / google-publisher pattern as Fox News).
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/markets.xml
+    description: Fox Business — Markets RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/economy.xml
+    description: Fox Business — Economy RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/personal-finance.xml
+    description: Fox Business — Personal Finance RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/lifestyle.xml
+    description: Fox Business — Lifestyle RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/technology.xml
+    description: Fox Business — Technology RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/videos.xml
+    description: Fox Business — Videos RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxweather.com/google-publisher/latest.xml
+    description: Fox Weather — Latest Headlines RSS feed.
+  - type: RSSIndex
+    url: https://www.foxsports.com/rss-feeds
+    description: Fox Sports public RSS index — 24 league/topic feeds served via api.foxsports.com/v2/content/optimized-rss with a shared partnerKey query parameter.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30
+    description: Fox Sports — All Headlines RSS feed (partnerKey-scoped optimized-rss endpoint, size=30 items).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&aggregateId=7f83e8ca-6701-5ea0-96ee-072636b67336
+    description: Fox Sports — Top Headlines RSS feed (aggregateId-scoped).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/nfl
+    description: Fox Sports — NFL RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/mlb
+    description: Fox Sports — MLB RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/cfb
+    description: Fox Sports — College Football RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/ufl
+    description: Fox Sports — UFL RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/nba
+    description: Fox Sports — NBA RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/nhl
+    description: Fox Sports — NHL RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/cbk
+    description: Fox Sports — College Basketball RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wnba
+    description: Fox Sports — WNBA RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wcbk
+    description: Fox Sports — Women's College Basketball RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/truck-series,fs/cup-series,fs/xfinity-series
+    description: Fox Sports — NASCAR RSS feed (Truck, Cup, Xfinity series combined).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/indycar,fs/formula-1,fs/motogp,fs/nhra,fs/arca-racing,fs/indy-nxt
+    description: Fox Sports — Motor Sports RSS feed (IndyCar, F1, MotoGP, NHRA, ARCA, Indy NXT).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/ufc
+    description: Fox Sports — UFC RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wwe
+    description: Fox Sports — WWE RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/korn-ferry-tour,fs/lpga-tour,fs/pga-tour,fs/liv
+    description: Fox Sports — Golf RSS feed (PGA, LPGA, Korn Ferry, LIV).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/atp,fs/wta
+    description: Fox Sports — Tennis RSS feed (ATP, WTA).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/soccer,soccer/epl/league/1,soccer/mls/league/5,soccer/ucl/league/7,soccer/europa/league/8,soccer/wc/league/12,soccer/euro/league/13,soccer/wwc/league/14,soccer/nwsl/league/20,soccer/cwc/league/26,soccer/gold_cup/league/32,soccer/unl/league/67
+    description: Fox Sports — Soccer RSS feed (EPL, MLS, UCL, Europa, World Cup, Euros, WWC, NWSL, CWC, Gold Cup, UNL).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=soccer/wc/league/12
+    description: Fox Sports — FIFA World Cup RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=soccer/wwc/league/14
+    description: Fox Sports — FIFA Women's World Cup RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/winter,fs/summer
+    description: Fox Sports — Olympics RSS feed (Winter and Summer).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=other/horseracing/league/1
+    description: Fox Sports — Horseracing RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wkc
+    description: Fox Sports — Westminster Kennel Club Dog Show RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/world-baseball-classic
+    description: Fox Sports — World Baseball Classic RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&content_type=spark_post_press_pass&component_type=news_article_press_pass
+    description: Fox Sports — PressPass RSS feed.
+  - type: Podcast
+    url: https://radio.foxnews.com/podcast
+    description: Fox News Radio / podcast directory.
