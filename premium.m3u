@@ -1,3 +1,728 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: STAR SPORTS 1 (4K). @nikshep
 http://premiumtvs.space:80/live/jen12345/Jen54321/98864.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: STAR SPORTS 2 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98865.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: STAR SPORTS 1 HINDI (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98866.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: STAR SPORTS SELECT 1 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98867.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: START SPORTS SELECT 2 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98868.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: TEN 1 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98861.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: TEN 2 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98862.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: TEN 3 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98863.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: SONY TEN 5 (4K). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98870.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/fox.png" group-title="CRICKET",CRIC || FOX CRIC 501 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1856.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ssc.png" group-title="CRICKET",CRIC || SUPERSPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/158442.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ssc.png" group-title="CRICKET",CRIC || SUPERSPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/2496.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/skycricket.png" group-title="CRICKET",CRIC || SKY SPORTS CRIC ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/12.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || SKY SPORTS CRIC ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23566.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || SKY SPORTS CRIC ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/114479.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || SKY SPORTS CRIC ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/124269.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/astrocricket.png" group-title="CRICKET",CRIC || ASTRO CRICKET ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/2494.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/willow.png" group-title="CRICKET",CRIC || WILLOW SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/215.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/willow.png" group-title="CRICKET",CRIC || WILLOW SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23943.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/willowxtra.png" group-title="CRICKET",CRIC || WILLOW 2 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/5040.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/tntsports.png" group-title="CRICKET",CRIC || TNT SPORTS 3 ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148090.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ptvsporthd.png" group-title="CRICKET",CRIC || PTV SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/89.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || PTV SPORTS ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/61674.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R7Knx3z/unnamed.png" group-title="CRICKET",CRIC || A SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/43444.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || A SPORTS ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/43447.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/geosuper.png" group-title="CRICKET",CRIC || GEO SUPER ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/101.ts
+#EXTINF:-1 tvg-logo="https://www.tensports.com.pk/wp-content/uploads/2019/10/Logo.png" group-title="CRICKET",CRIC || TEN SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/98.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/starsports1.png" group-title="CRICKET",CRIC || STAR SPORTS 1 ENG ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/starsports1.png" group-title="CRICKET",CRIC || STAR SPORTS 1 ENG ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9397.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 1 ENG ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/124281.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/starsports2.png" group-title="CRICKET",CRIC || STAR SPORTS 2 ENGLISH ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/239.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/starsports2.png" group-title="CRICKET",CRIC || STAR SPORTS 2 ENGLISH ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9398.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 2 ENGLISH ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/124284.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ssh1.png" group-title="CRICKET",CRIC || STAR SPORTS 1 HINDI ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/211.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ssh1.png" group-title="CRICKET",CRIC || STAR SPORTS 1 HINDI ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9399.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 1 HINDI ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/124287.ts
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png" group-title="CRICKET",CRIC || STAR SPORTS SELECT 1 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/238.ts
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png" group-title="CRICKET",CRIC || STAR SPORTS SELECT 2 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148801.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 1 TAMIL ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9722.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 1 TELUGU ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/177843.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ss3.png" group-title="CRICKET",CRIC || STAR SPORTS 3 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1080.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/34FSKYK/images.png" group-title="CRICKET",CRIC || T SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/18452.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/34FSKYK/images.png" group-title="CRICKET",CRIC || T SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/130714.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/rta.png" group-title="CRICKET",CRIC || RTA SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1039.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/sonyten1.png" group-title="CRICKET",CRIC || SONY SPORTS 1 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/154.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",SONY Ten 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/192.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/sonyten2.png" group-title="CRICKET",CRIC || SONY SPORTS 2 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/31314.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/sonyten3.png" group-title="CRICKET",CRIC || SONY SPORTS 3 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/146.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/sonyten4.png" group-title="CRICKET",CRIC || SONY SPORTS 4 TAMIL @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/29469.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3NGPRb1/Sony-Sports-Ten-5.png" group-title="CRICKET",CRIC || SONY SPORTS 5 ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/176.ts
+#EXTINF:-1 tvg-logo="https://pluspng.com/img-png/sony-hd-png-http-www-indigital-co-in-upload-channellogo-channellogo-635901932420648964-png-sony-espn-hd-300.png" group-title="CRICKET",CRI: SONY ESPN HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/155.ts
+#EXTINF:-1 tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_1_logo_stack_rgb.png" group-title="CRICKET",CRIC || SKY SPORT 1 ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/150854.ts
+#EXTINF:-1 tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_3_logo_stack_rgb.png" group-title="CRICKET",CRIC || SKY SPORT 3 ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/24018.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PtxbFbk/Cricket-Plus-tr.png" group-title="CRICKET",CRI: ATN Plus Cricket @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/85829.ts
+#EXTINF:-1 tvg-logo="https://static.epg.best/no/Eurosport1.no.png" group-title="CRICKET",CRIC || EUROSPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/216.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",MUTV HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/29.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",LIVERPOOL FC HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/30.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Fight_network_logo.svg/1200px-Fight_network_logo.svg.png" group-title="SPORTS | SPORTS",UK: Fight Network @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/149.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/37a141fd1959d8404d85eddaf9db6b8b.png" group-title="SPORTS | SPORTS",PT: SPORT TV1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/314.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/50b680d733869a2d534e49f9b69e1dca.png" group-title="SPORTS | SPORTS",PT: SPORT TV 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/315.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/d9f75d9bba2e1efe718dd51f9289c360.png" group-title="SPORTS | SPORTS",PT: SPORT TV3 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/316.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/5b984b54505ed991ae890e50533ed85d.png" group-title="SPORTS | SPORTS",PT: Sport TV 5 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/318.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/0f77ba9607690aff0aa1307469f24dcb.png" group-title="SPORTS | SPORTS",PT: EUROSPORT 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/324.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/828c2456cb98214830e000ff03fedaba.png" group-title="SPORTS | SPORTS",PT: EUROSPORT 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/325.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/0cd889734dd9fc56dae353d0e54cc4e1.png" group-title="SPORTS | SPORTS",PT: ELEVEN SPORT 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/327.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/6ced2656769ce3dee1c045d694a81524.png" group-title="SPORTS | SPORTS",PT: ELEVEN SPORT 3 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/329.ts
+#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/fba7aa6abb3a938d6d2da99a29f57a8c.png" group-title="SPORTS | SPORTS",NL : ESPN SPORTS 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/503.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/227dacbe84acf0df2b21279e1f75d2c2.png" group-title="SPORTS | SPORTS",NL : ESPN SPORTS 3 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/505.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/758d4f77d176cdd7a7a3f22af54c820b.png" group-title="SPORTS | SPORTS",NL : EUROSPORT 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/509.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/2daed7bb7d517d2e1b21da50a4084d64.png" group-title="SPORTS | SPORTS",NL : ZIGGO SPORT VOETBAL HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/511.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/6e09ff7f947e483e9e32676d3273c681.png" group-title="SPORTS | SPORTS",DE: DAZN Sport 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/564.ts
+#EXTINF:-1 tvg-logo="http://hellosky.live:8080/images/f6a14d2f69932ef18b77ea880dde4c61.png" group-title="SPORTS | SPORTS",FR: RMC SPORTS 3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/615.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",SUPERSPORTS PSL (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/770.ts
+#EXTINF:-1 group-title="SPORTS | SPORTS",AL: KUJTESA SPORT 4 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1138.ts
+#EXTINF:-1 tvg-logo="http://hellosky.fun:8080/images/6607c3d1dabdb81c383bef2d39fa6b16.png" group-title="SPORTS | SPORTS",IT: EURO SPORTS 1 | UHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1684.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",EURO SPORTS 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1920.ts
+#EXTINF:-1 tvg-logo="http://hellosky.fun:8080/images/824760ef21abaa0e884336d92ea63136.png" group-title="SPORTS | SPORTS",PL: POLSAT SPORT FIGHT FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1971.ts
+#EXTINF:-1 tvg-logo="http://hellosky.fun:8080/images/ac3dd06a315ccc5a7040a7b275e44d55.png" group-title="SPORTS | SPORTS",PL: POLSAT SPORT PREMIUM 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1973.ts
+#EXTINF:-1 tvg-logo="http://hellosky.fun:8080/images/e654671f90c96a57bac51fc233fbf526.png" group-title="SPORTS | SPORTS",PL: CANAL+ SPORT 4 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/1980.ts
+#EXTINF:-1 group-title="SPORTS | SPORTS",US: Olympic Channel 1 (UHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/2197.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",BEIN SPORT 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4468.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuR_kF8fYxhcL_qxXuR6697bxKFmLcEJUpmoN_yP4iTTHmO2sLqrduhl-iWKvEJ7IcOrk&usqp=CAU" group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports 501 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4748.ts
+#EXTINF:-1 tvg-logo="https://media.info/i/lf/0/1489224386/6551.png" group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports 503 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4750.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Footy_logo_%282015%29.svg/1200px-Fox_Footy_logo_%282015%29.svg.png" group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports 504 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4751.ts
+#EXTINF:-1 group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports 505 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4752.ts
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2c/SPE_290x170.png/revision/latest?cb=20180916115509" group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports 506 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4753.ts
+#EXTINF:-1 group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports 507 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/4754.ts
+#EXTINF:-1 group-title="SPORTS | FOX AUSTRALIA",AU: Fox Sports News @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/5442.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",SKY SPORTS FOOTBALL @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/19.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",TNT Sport 3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/283.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",TNT SPORT 2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/285.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Premier Sports 1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/5029.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Premier Sports 2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/5030.ts
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/b5/Star_Sports_Select_1_HD.jpg/revision/latest/scale-to-width-down/340?cb=20180806112709" group-title=" SPORTS | INDIA",IN: Star Sports Select 1 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9400.ts
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest/top-crop/width/220/height/220?cb=20170728104956" group-title=" SPORTS | INDIA",IN: Star Sports Select 2 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9401.ts
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/QOx79orcb1I/maxresdefault.jpg" group-title=" SPORTS | INDIA",IN: Sony Ten 1 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9402.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: Sony Ten 2 (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9403.ts
+#EXTINF:-1 tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/569ccce68ead0e21236eb474/1565808608783/c9347b41649e4f9d39f547b0d9ffd902.jpg" group-title=" SPORTS | INDIA",IN: Sony Ten 3 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9404.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Sky Sports Premier League HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/9891.ts
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/masthead_logo/SonySIXHD_Masthead_Logo.png" group-title=" SPORTS | INDIA",IN: SONY TEN 5 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/17565.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/JxV7Hwm/adobestock-281129069-2048x1367-jpeg-1070x600-1-1.png" group-title="SPORTS | SPORTS",USA : BeIN SPORTS HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/18451.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title=" SPORTS | INDIA",IN: EUROSPORTS (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23308.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Sky Sports Football (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23334.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Sky Sports Premier League (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23342.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Premier 1 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23344.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Premier 2 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23345.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",Eurosport 2 (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/23348.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",LFC TV FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/24114.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",T SPORTS @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/52500.ts
+#EXTINF:-1 tvg-logo="https://b.top4top.io/p_247364akp1.png" group-title="RACING | F1 MOTOGP",UK: Sky Sports F1 (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122181.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YBWQ2XMg/sky-news.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS NEWS @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122408.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hFqWZn8V/sky-mainevent.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS MAIN EVENT @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122409.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yFfm6BsT/sky-pl.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS PREMIER LEAGUE @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122410.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BH2Y4Rhj/sky-football.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS FOOTBALL @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122411.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GvnHGbtm/sky-cricket.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS CRICKET @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122412.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/whnZLzHs/sky-action.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS ACTION @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122413.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xq8cn9zX/sky-arena.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS PLUS @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122414.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/sv3x4KtD/sky-racing.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS RACING @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122415.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/qMJs58BY/sky-mix.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS MIX @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122416.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R4C5VJFZ/sky-golf.png" group-title="SPORTS | SKY UK (4K)",UK || SKY SPORTS GOLF @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/122417.ts
+#EXTINF:-1 group-title="RACING | F1 MOTOGP",DSTV : Super Motorsport (FHD). @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/124000.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL", ATN @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/129703.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",SUPERSPORTS FOOTBALL (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/776.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",SUPERSPORTS LALIGA (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/768.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",SUPERSPORTS PREMIER LEAGUE (FHD) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/771.ts
+#EXTINF:-1 tvg-logo="http://starapk1.com/logo/football.png" group-title="FOOTBALL",BEIN SPORTS English 1 (4k) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/138713.ts
+#EXTINF:-1 tvg-logo="https://b.top4top.io/p_247364akp1.png" group-title="RACING | F1 MOTOGP",UK: SKY SPORTS F1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/144581.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="SPORTS | UK MIX",UK | LA LIGA TV (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148270.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6mwHTJh/download-6.png" group-title="SPORTS | UK MIX",UK SD : TNT Sport 3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148559.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6mwHTJh/download-6.png" group-title="SPORTS | UK MIX",UK SD : TNT Sport 2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148560.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6mwHTJh/download-6.png" group-title="SPORTS | UK MIX",UK SD : TNT Sport 1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148561.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5Ky6FnH/download-8.png" group-title="SPORTS | UK MIX",UK SD : Euronews @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148676.ts
+#EXTINF:-1 group-title="SPORTS | UK MIX",Sky Sports Plus SD Hevc @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148678.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/JC19xwB/download-3-1.png" group-title="SPORTS | UK MIX",Sky Sports Cricket SD Hevc @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148679.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DfwjcDT/download-4.png" group-title="SPORTS | UK MIX",Sky Sports F1 SD Hevc @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148680.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QKzqNG8/golf-wallpaper-preview.png" group-title="SPORTS | UK MIX",Sky Sports Golf SD Hevc @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148682.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/JkhXm3S/download-8.png" group-title="SPORTS | UK MIX",Sky Sports mix SD Hevc @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/148684.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BwZmx1f/download-7.png" group-title="SPORTS | UK SPORTS",SKY SPORTS MAIN EVENT FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186597.ts
+#EXTINF:-1 tvg-logo="http://stariptv.fun/logos/skysportspremierleaguehd.png" group-title="SPORTS | UK SPORTS",SKY SPORTS PREMIER LEAGUE HD  @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186603.ts
+#EXTINF:-1 tvg-logo="http://stariptv.fun/logos/skysportspremierleaguehd.png" group-title="SPORTS | UK SPORTS",SKY SPORTS PREMIER LEAGUE FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186604.ts
+#EXTINF:-1 tvg-logo="https://h.top4top.io/p_247357nqz1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS CRICKET HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186605.ts
+#EXTINF:-1 tvg-logo="https://h.top4top.io/p_247357nqz1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS CRICKET FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186606.ts
+#EXTINF:-1 tvg-logo="https://j.top4top.io/p_2563b7cdj1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS FOOTBALL HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186607.ts
+#EXTINF:-1 tvg-logo="https://j.top4top.io/p_2563b7cdj1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS FOOTBALL FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186612.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_Golf_-_Logo_2018.svg/1200px-Sky_Sport_Golf_-_Logo_2018.svg.png" group-title="SPORTS | UK SPORTS",SKY SPORTS GOLF HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186613.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_Golf_-_Logo_2018.svg/1200px-Sky_Sport_Golf_-_Logo_2018.svg.png" group-title="SPORTS | UK SPORTS",SKY SPORTS GOLF FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186614.ts
+#EXTINF:-1 tvg-logo="https://b.top4top.io/p_247364akp1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS F1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186615.ts
+#EXTINF:-1 tvg-logo="https://b.top4top.io/p_247364akp1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS F1 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186616.ts
+#EXTINF:-1 tvg-logo="https://l.top4top.io/p_2473e4g9y1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS Plus FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186620.ts
+#EXTINF:-1 tvg-logo="https://h.top4top.io/p_2473pjofr1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS MIX HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186621.ts
+#EXTINF:-1 tvg-logo="https://h.top4top.io/p_2473pjofr1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS MIX FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186622.ts
+#EXTINF:-1 tvg-logo="https://f.top4top.io/p_2473anxmd1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS NEWS HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186623.ts
+#EXTINF:-1 tvg-logo="https://f.top4top.io/p_2473anxmd1.png" group-title="SPORTS | UK SPORTS",SKY SPORTS NEWS FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186624.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Sky_Sports_Box_Office.png" group-title="SPORTS | UK SPORTS",SKY SPORTS BOX OFFICE HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186625.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Sky_Sports_Box_Office.png" group-title="SPORTS | UK SPORTS",SKY SPORTS BOX OFFICE FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186626.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/tntsports.png" group-title="CRICKET",CRIC || TNT SPORTS 1 ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186627.ts
+#EXTINF:-1 tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/07/TNT-Sports-2-New.jpg" group-title="SPORTS | UK SPORTS",TNT SPORT 2 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186628.ts
+#EXTINF:-1 tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/07/TNT-Sports-3-1.png" group-title="SPORTS | UK SPORTS",TNT SPORT 3 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186629.ts
+#EXTINF:-1 tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/07/TNT-Sports-4.jpg" group-title="SPORTS | UK SPORTS",TNT SPORT 4 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186630.ts
+#EXTINF:-1 tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/07/TNT-Sports-All.jpg" group-title="SPORTS | UK SPORTS",TNT SPORT 5 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186631.ts
+#EXTINF:-1 tvg-logo="https://b1gchlogos.xyz/wp-content/uploads/2023/07/TNT-Sports-All.jpg" group-title="SPORTS | UK SPORTS",TNT SPORT 6 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186632.ts
+#EXTINF:-1 tvg-logo="https://b1gchlogos.xyz/wp-content/uploads/2023/07/TNT-Sports-All.jpg" group-title="SPORTS | UK SPORTS",TNT SPORT 9 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186635.ts
+#EXTINF:-1 tvg-logo="http://b1g.us/logos/eurosport1hd.png" group-title="SPORTS | UK SPORTS",EUROSPORT 1 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186637.ts
+#EXTINF:-1 tvg-logo="http://b1g.us/logos/eurosport2.png" group-title="SPORTS | UK SPORTS",EUROSPORT 2 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186638.ts
+#EXTINF:-1 tvg-logo="https://b1gchlogos.xyz/wp-content/uploads/2023/05/PremierSports.png" group-title="SPORTS | UK SPORTS",PREMIER SPORT 1 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186639.ts
+#EXTINF:-1 tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/05/PremierSports2.png" group-title="SPORTS | UK SPORTS",Premier Sport 2 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186640.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/99D3Rztx/images-1.png" group-title="SPORTS | UK SPORTS",RACING TV HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186642.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/64nvrQX/download-10.png" group-title="SPORTS | UK SPORTS",UK: SKY SPORTS RACING FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/186643.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Sky_Sports_Box_Office.png" group-title="SPORTS | UK SPORTS",SKY SPORTS BOX OFFICE FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/201548.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/34FSKYK/images.png" group-title="CRICKET",CRIC || T SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/113069.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/ssh2.png" group-title="CRICKET",CRIC || STAR SPORTS 2 HINDI ᶠᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/213049.ts
+#EXTINF:-1 group-title="RACING | F1 MOTOGP",FR: AUTOMOTO HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/231152.ts
+#EXTINF:-1 tvg-logo="https://www.thepapare.com/wp-content/uploads/Logo-01.png" group-title="CRICKET",CRIC || THE PAPARE ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/269552.ts
+#EXTINF:-1 tvg-logo="http://stariptv.fun/logos/btsport1hd.png" group-title="SPORTS | UK SPORTS",TNT SPORT 1 HD. @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/199487.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRI: Star 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/333368.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 2 TAMIL ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/379753.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="CRICKET",CRIC || STAR SPORTS 2 TELUGU ⁴ᵏ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/379755.ts
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/StarSports1.in.png" group-title="CRICKET",CRIC || STAR SPORTS 1 KANNADA ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/380977.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/FV8KN54/images-1.png" group-title="CRICKET",CRIC || STAR SPORTS FIRST @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/394272.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cvqJupU.png" group-title="CRICKET",Hub Sports 4 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/196347.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dtHrw4W/download-2-2.png" group-title="CRICKET",CRIC || FAST SPORTS ᴴᴰ @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/87460.ts
+#EXTINF:-1 tvg-logo="https://ethnicchannels.com/images/channeldetail/ten-cricket/ten-ckt-logo.png" group-title="CRICKET",CRIC || TEN CRICKET @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/514856.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="REAL 4K (2160P)",UK: SKY SORTS F1 (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/384213.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="REAL 4K (2160P)",UK : SKY SPORTS MAIN EVENTS (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/384215.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="REAL 4K (2160P)",UK: SKY SPORTS 2 (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/384216.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="REAL 4K (2160P)",UK: SKY SPORTS 1 (4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/384222.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="REAL 4K (2160P)",UK : TNT 4K ULTIMATE (LIVE EVENT) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/384243.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="REAL 4K (2160P)",UHD ▎BLOOMBERG |US| @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/466663.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SKY SPORTS MAIN EVENT [UK] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/581305.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SKY SPORTS F1 [UK] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/581306.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SKY SPORTS 1 [UK] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/581307.ts
+#EXTINF:-1 group-title="SPORTS | FOX AUSTRALIA",|AU| FOX Sports 502 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/415535.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YVrrBGT/khel.jpg" group-title="CRICKET",CRIC || STAR SPORTS KHEL @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/612020.ts
+#EXTINF:-1 tvg-logo="http://greenpa1.com/sonyten4.png" group-title="CRICKET",CRIC || SONY SPORTS 4 TELUGU @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/635098.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652310.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS  4K 2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652311.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS  4K 3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652312.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 4 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652313.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 5 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652314.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 6 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652315.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 7 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652316.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 8 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652317.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN SPORTS 4K 9 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652318.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN Sport English 2 4k @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652319.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN Sport French 4k 1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652320.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN Sport French 4k 2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652321.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports Global 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652322.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra 4K 1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652323.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra 4K 2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652324.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN Xtra 4K  3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652325.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra 4K 5 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652326.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra 4K 6 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652327.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra 4K 4 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652328.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 3 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652329.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 4 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652330.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 5 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652331.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport NBA 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652332.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD1 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652333.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD2 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652334.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD3 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652335.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD4 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652336.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD5 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652337.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD6 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652338.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD7 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652339.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD8 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652340.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports HD9 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652341.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD1 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652342.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD2 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652343.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD3 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652344.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports English 1 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652345.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports English 2 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652346.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports French HD1 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652347.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sports French HD2 1080 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652348.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport News HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652349.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD1 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652350.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD2 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652351.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD3 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652352.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD4 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652353.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD5 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652354.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD6 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652355.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD7 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652356.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD8 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652357.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport HD9 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652358.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD1 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652359.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD2 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652360.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD3 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652361.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport English 2 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652362.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport French HD1 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652363.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport French HD2 720 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652364.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD 5 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652365.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD 6 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652366.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra HD 4 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652367.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 3 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652368.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 4 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652369.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 5 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652370.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport NBA HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652371.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport  SD1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652372.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652373.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652374.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD4 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652375.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD5 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652376.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD6 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652377.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD7 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652378.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD8 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652379.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport SD9 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652380.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport English 1 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652381.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport English 2 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652382.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport French SD1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652383.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport French SD2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652384.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Sports Global SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652385.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra SD1 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652386.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra SD2 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652387.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra SD3 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652388.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra SD 4 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652389.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra SD 5 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652390.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Xtra SD 6 @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652391.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 3 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652392.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 4 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652393.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",Bein Sport AFC 5 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652394.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 1 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652411.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 2 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652412.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 3 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652413.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 4 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652414.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 5 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652415.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 6 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652416.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 7 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652417.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 8 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652418.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 9 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652419.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 10 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652420.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652421.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652422.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 3 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652423.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 4 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652424.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 5 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652425.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 6 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652426.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 7 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652427.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 8 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652428.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 9 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652429.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 10 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652430.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 1 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652431.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 2 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652432.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 3 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652433.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 4 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652434.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 5 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652435.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 6 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652436.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 7 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652437.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 8 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652438.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 9 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652439.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",BeIN Alkass 10 SD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/652440.ts
+#EXTINF:-1 group-title="SPORTS | BEIN",beIN Sport English 1 4k. @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/676385.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SKY SPORTS 2 [UK] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688273.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎BLUE SPORT 1 [CH] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688274.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎BLUE SPORT 2 [CH] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688275.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎BLUE SPORT 3 [CH] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688276.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎BLUE SPORT 4 [CH] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688277.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎QUADRO [RU] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688278.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎ULTRA REX [RU] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688279.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎KINO [RU] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688280.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎CINEMA ULTRA HD [RU] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688281.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎RTL [DE] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688282.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SKY SPORT [DE] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688283.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SKY SPORT BUNDESLIGA [DE] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688284.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎PRO7SAT.1 [DE] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688285.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎ELEVEN SPORTS 1 [PL] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688286.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎RAI 1 [IT] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688287.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎ELEVENSPORT 1 [PL] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688288.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎LA 1 [ES] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688290.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎ODISEA [ES] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688291.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎TRT [TR] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688292.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎ASTRO SUPERSPORT [UK] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688294.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎NOW SPORTS [UK] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688301.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎FASHION TV [AL] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688306.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎SPORT TV 1 [PT] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688307.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎BENFICA TV [PT] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688308.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎ELEVEN SPORTS 1 [PT] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688309.ts
+#EXTINF:-1 group-title="REAL 4K (2160P)",UHD ▎M+ LALIGA TV [ES] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/688310.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",SUPER SPORTS FIFA @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/741566.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",Unite8 Sports 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/741567.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",DE | Fusball TV 1 World Cup 2026 [HD] @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/742610.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",DE | Fusball TV 2 World Cup 2026 [HD]  @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/742611.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/M5WCX8XS/MAX-SPORTS-1-HD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 1 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744517.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jkJXrgfz/MAX-SPORTS-2-HD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744518.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Y727k2cZ/MAX-SPORTS-3-HD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 3 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744519.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nqJGGmCK/MAX-SPORTS-4-HD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 4 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744520.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0V8rVK3s/MAX-SPORTS-5-HD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 5 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744521.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/n84Yg4Hp/MAX-SPORTS-6-HD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 6 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744522.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YB6ZyftG/MAX-SPORTS-1-FHD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 1 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744523.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rRNLQq24/MAX-SPORTS-2-FHD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 2 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744524.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/S74Cr4Qp/MAX-SPORTS-3-FHD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 3 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744525.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4nF75VxL/MAX-SPORTS-4-FHD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 4 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744526.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Y7vntPyV/MAX-SPORTS-5-FHD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 5 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744527.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Mkg6zW45/MAX-SPORTS-6-FHD.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 6 FHD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744528.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gFwwwdf7/MAX-SPORTS-1-4-K.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 1 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744529.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0yRnNDvs/MAX-SPORTS-2-4-K.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 2 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744530.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VW52CPRF/MAX-SPORTS-3-4-K.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 3 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744531.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/M5gntknw/MAX-SPORTS-4-4-K.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 4 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744532.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/8g63MbJn/MAX-SPORTS-5-4-K.png" group-title="BEIN SPORTS MAX (FIFA)",BEIN SPORTS MAX 5 4K @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/744533.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",SS World Cup Central @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/745149.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",SS World Cup Pass @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/745195.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",Unite8 Sports 2 HD @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/745202.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfMp5MTJ/Chat-GPT-Image-Jun-5-2026-07-28-11-PM.png" group-title="FIFA World Cup 2026",SS World Cup Extra @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/745211.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/fzbsY6CP/Chat-GPT-Image-Jun-11-2026-11-41-22-PM.png" group-title="FIFA World Cup 2026",(DE) Fussball.TV1 (UHD/4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/745269.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/fzbsY6CP/Chat-GPT-Image-Jun-11-2026-11-41-22-PM.png" group-title="FIFA World Cup 2026",(HK) Now Sports 616 (UHD/4K) @nikshep
+http://premiumtvs.space:80/live/jen12345/Jen54321/745270.ts
+
